@@ -54,6 +54,8 @@ services:
 # The default language to use for OCR. Set this to the language most of your
 # documents are written in.
       PAPERLESS_OCR_LANGUAGE: deu
+      PAPERLESS_ADMIN_PASSWORD: admin
+      PAPERLESS_ADMIN_USER: admin
 
 volumes:
   data:
